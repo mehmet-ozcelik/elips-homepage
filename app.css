@@ -1,0 +1,85 @@
+@font-face {
+    font-family: gordita;
+    src: url(Gordita-Font/);
+}
+body{
+    color: rgb(8, 21, 57);
+}
+.sutun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.biz-kimiz{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}
+.biz-kimiz-baslik{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.biz-kimiz-text-ust{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.biz-kimiz-text-alt{
+    font-size: 14px;
+    font-weight: 400;
+}
+.biz-kimiz img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.neden-elips {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding: 60px;
+    padding-bottom: 60px;
+    height: 100%;
+    width: auto;
+    background-color: rgb(248, 248, 248);
+    background-image: url("img/Group\ 6485.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.neden-elips-baslik{
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.elips-text{
+    color: rgb(255, 123, 7);
+}
+.neden-elips-content{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: 700;
+}
+li{
+    list-style-image: url("img/orange-dot-list\ \(1\).svg");
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-size: 14px;
+}
+.neden-elips-button{
+    width: 230px;
+    height: 60px;
+    background: rgb(255, 123, 7);
+    color: white;
+    border: none;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.button-text{
+    display: inline;
+    padding-right: 80px;
+}
